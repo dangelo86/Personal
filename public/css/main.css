@@ -4,7 +4,6 @@ GENERAL
 
 body {
   font-family: 'Open Sans', sans-sarif;
-  background-image: url("network.jpg");
 }
 
 #wrapper {
@@ -135,6 +134,7 @@ PAGE: ABOUT
   max-width: 150px;
   margin: 0 auto 30px;
   border-radius: 100%;
+  padding-top: 5px;
 }
 
 /***********************
@@ -143,38 +143,39 @@ COLORS
 
 /* site body */
 body{ 
-  background-color: #fff;
-  color: #999;
+  background-color: #0E0B16;
+  color: #E7DFDD;
 }
 
 /* green header */
 header {
-  background: #2E4A2E;
-  border-color: #599a86;
+  background: black;
+  border-color: #A239CA;
+  color: #E7DFDD;
 }
 
 /* nav background on mobile */
 nav {
-  background: #599a86;
+  background: #A239CA;
 }
 
 /* logo text */
 h1, h2 { 
-  color: #fff
+  color: #E7DFDD;
 }
 
 /* links */
 a {
-  color: #6ab47b
+  color: #4717F6
 }
 
 /* nav link color */
 nav a, nav a:visited {
-  color: #fff;
+  color: #E7DFDD;
 }
 /* selected nav link color */
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #A239CA;
 }
 
 
